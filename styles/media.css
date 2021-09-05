@@ -102,9 +102,6 @@
     .send-button {
         font-size: 18px;
     }
-    .app-form__button:hover,.pay-button:hover, .send-button:hover {
-        font-size: 20px;
-    } 
     .columnbreaker {
         font-size: 16px;
         width: 48%;
@@ -231,10 +228,7 @@
     }
     .send-button {
         font-size: 16px;
-    } 
-    .app-form__button:hover, .pay-button:hover, .send-button:hover {
-        font-size: 18px;
-    } 
+    }
     .header__item:hover {
         background-color: #131313;
     }
@@ -266,9 +260,6 @@
         font-size: 14px;
         height: 35px;
     } 
-    .app-form__button:hover, .pay-button:hover, .send-button:hover {
-        font-size: 16px;
-    }
     .columnbreaker,.section-4__text, .section-5, ::placeholder {
         font-size: 14px;
     } 
@@ -306,9 +297,6 @@
     .send-button {
         font-size: 14px;
     } 
-    .app-form__button:hover, .pay-button:hover, .send-button:hover {
-        font-size: 15px;
-    }
     .title__Course {
         font-size: 18px;
     }
@@ -395,9 +383,6 @@
     .app-form__button, .pay-button {
         margin-top: 25px;
     }
-    .app-form__button:hover, .pay-button:hover, .send-button:hover {
-        font-size: 13px;
-    }
     p {
         padding-bottom: 5px;
     }
@@ -434,9 +419,6 @@
     .app-form__button, ::placeholder, .pay-button, .send-button{
         font-size: 16px;
     }
-    .app-form__button:hover {
-        font-size: 15px;
-    }
     .start-img {
         margin: 10px auto 0;
     }
@@ -472,9 +454,6 @@
     }
     .send-button {
         padding: 0 83px;
-    }
-    .pay-button:hover, .send-button:hover {
-        font-size: 15px;
     }
 }
 

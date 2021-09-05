@@ -86,7 +86,7 @@ a {
     font-size: 20px;
     font-weight: bold;
     border: none;
-    transition: all 3ms;
+    transition: all .3s;
     cursor:pointer;
     margin: 100px auto 0;
     display: block;
@@ -94,7 +94,7 @@ a {
 
   .app-form__button:hover {    
     background: #ff0000;
-    font-size: 22px;
+    transform: scale(1.02);
   }
 
 
@@ -186,14 +186,14 @@ p {
   font-size: 20px;
   font-weight: bold;
   border: none;
-  transition: all 3ms;
+  transition: all .3s;
   cursor:pointer;
   display: block;
 }
 
 .pay-button:hover, .send-button:hover {    
   background: #ff0000;
-  font-size: 22px;
+  transform: scale(1.02);
 }
 
 /* 4-й Экран */
@@ -260,7 +260,7 @@ form {
   font-size: 20px;
   font-weight: bold;
   border: none;
-  transition: all 3ms;
+  transition: all .3s;
   cursor:pointer;
   display: block;
 }
