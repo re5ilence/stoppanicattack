@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="./styles/css/styles.min.css">
 </head>
 
-<body>  
+<body>
+    
+    <div id="modal" class="modal hide"></div>
     
     <section class="section-1">
 
@@ -173,10 +175,10 @@
                     <br>Оно простое как молоток и эффективное, тоже как молоток. </p>
                 <p>Укажи свои контактные данные и я пришлю тебе его абсолютно бесплатно.</p>
                 
-                <form action="mail.php" method="post" class="app-form">
-                    <input type="text" class="app-form__input" placeholder="Имя">
-                    <input type="text" class="app-form__input" placeholder="E-mail">
-                    <button class="send-button" type="submit">
+                <form action="" method="post" class="app-form">
+                    <input type="text" id="name" class="app-form__input" placeholder="Имя">
+                    <input type="text" id="email" class="app-form__input" placeholder="E-mail">
+                    <button id="sendButton" class="send-button" type="submit">
                       Отправить
                     </button>
                 </form>
