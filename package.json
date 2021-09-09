@@ -1,0 +1,24 @@
+{
+  "name": "stoppanicattack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --include-path --output-style compressed -o scss styles/scss/styles.scss styles/css/styles.min.css",
+    "watch": "nodemon -e scss -x 'npm run scss'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/re5ilence/stoppanicattack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/re5ilence/stoppanicattack/issues"
+  },
+  "homepage": "https://github.com/re5ilence/stoppanicattack#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
