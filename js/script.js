@@ -43,7 +43,7 @@ $(document).ready(function() {
       .hide()
       .fadeIn();
       
-      setTimeout(() => $('#modal').fadeOut(), 2000);
+      setTimeout(() => $('#modal').fadeOut(), 2500);
     }
 
     function emailIsValid(email) {
@@ -63,5 +63,11 @@ $(document).ready(function() {
 
       return true;
     }
+
+    
+    $('#button').click(function () {
+      showMessage('Пиши в лс в соцсетях - <br>ссылки в шапке сайта')
+    });
+
 });
 

@@ -2,8 +2,8 @@
 
 require_once './vendor/autoload.php';
 
-$user = 'root';
-$pass = 'crashyes';
+$user = 'leusdiv_stoppanicattack';
+$pass = 'crashyes25';
 
 $successMessage = 'Письмо успешно отправлено!';
 $failMessage = 'Возникла ошибка. Повторите попытку позже.';
@@ -12,7 +12,7 @@ $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_SPECIAL_CHARS);
 $email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
 
 try {
-  $dbh = new PDO('mysql:host=localhost;dbname=stoppanicattack', $user, $pass);
+  $dbh = new PDO('mysql:host=localhost;dbname=leusdiv_stoppanicattack', $user, $pass);
   
   $stmt = $dbh->prepare("INSERT INTO subscribers (name, email) VALUES (?, ?)");
   $stmt->bindParam(1, $name);
